@@ -88,7 +88,7 @@ public:
     void display()
     {
         node *t = head;
-        while (t->next != NULL)
+        while (t != NULL)
         {
             cout << t->data << "->";
             t = t->next;

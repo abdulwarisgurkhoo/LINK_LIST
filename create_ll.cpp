@@ -59,7 +59,7 @@ class list
             void display()
             {
                 node *temp=head;
-                while(temp->next != NULL)
+                while(temp != NULL)
                 {
                         cout<<temp->data<<"->";
                         temp=temp->next;
