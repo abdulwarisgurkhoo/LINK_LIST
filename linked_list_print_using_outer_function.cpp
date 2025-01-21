@@ -1,4 +1,4 @@
-/************************************merging_2_linked_lists*******************************/
+/************************************linked_list_print_using_outer_function.cpp*******************************/
 #include<iostream>
 using namespace std;
 class node
