@@ -86,6 +86,17 @@ class list
             }
             cout<<"null";
         }
+        void count()
+        {
+            node *temp=head;
+            int i=0;
+            while(temp != nullptr)
+            {
+                    i++;
+                    temp=temp->next;
+            }
+            cout<<"\nno. of nodes  link_list has is : "<<i;
+        }
     };    
 int main ()
 {   list ll;
@@ -102,8 +113,9 @@ int main ()
 
 
     }
-    cout<<"\nthe linked list yu enter is \n";
+    cout<<"\nthe linked list you enter is \n";
     ll.display();
+    ll.count();
     return 0;
 
     
