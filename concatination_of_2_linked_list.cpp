@@ -1,4 +1,4 @@
-/****______________________________merging_two_linked_lists.cpp_____________________*****/
+/*****______________________________merging_two_linked_lists.cpp_____________________******/
 #include<iostream>
 using namespace std;
 class node
